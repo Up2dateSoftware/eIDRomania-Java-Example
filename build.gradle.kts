@@ -34,7 +34,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.up2date.eidromania:eidromania-desktop-sdk:1.0.5")
+    implementation("com.up2date.eidromania:eidromania-desktop-sdk:1.0.6")
     // Kotlin stdlib and BouncyCastle needed at compile time only.
     // Both are bundled in the fat JAR at runtime.
     compileOnly("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")

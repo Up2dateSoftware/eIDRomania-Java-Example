@@ -78,7 +78,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.up2date.eidromania:eidromania-desktop-sdk:1.0.5")
+    implementation("com.up2date.eidromania:eidromania-desktop-sdk:1.0.6")
 }
 ```
 
