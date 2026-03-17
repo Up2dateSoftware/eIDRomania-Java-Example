@@ -67,13 +67,9 @@ settings.gradle.kts    # Project name + plugin management
 // build.gradle.kts
 repositories {
     mavenCentral()
+    // eIDRomania Desktop SDK (public read access — no credentials required)
     maven {
         url = uri("https://europe-west1-maven.pkg.dev/eid-romania/eid-romania-sdk")
-        credentials {
-            username = "_json_key_base64"
-            password = "YOUR_SDK_KEY_HERE" // provided by Up2Date Software SRL with your license
-        }
-        authentication { create<BasicAuthentication>("basic") }
     }
 }
 
